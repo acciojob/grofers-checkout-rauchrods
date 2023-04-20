@@ -17,7 +17,8 @@ const getSum = () => {
   let td = document.createElement("td");
   td.innerText = sum;
   tr.appendChild(td);
-
+  tr.setAttribute("id","ans");
+	
   table.appendChild(tr);
 };
 
